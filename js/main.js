@@ -8,6 +8,8 @@ let showMenu = false;
 
 menuBtn.addEventListener('click', toggleMenu);
 
+
+
 function toggleMenu() {
     if(!showMenu) {
         hamburger.classList.add('open');
@@ -25,3 +27,5 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+
+

@@ -43,6 +43,7 @@
     .contact_list {
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 @include media-lg {
@@ -54,6 +55,14 @@
 
     .contact_list {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contact .social-icons {
+        margin-top: 5rem;
+
+        a {
+            padding: 1.2rem;
+        }
     }
 }
 
